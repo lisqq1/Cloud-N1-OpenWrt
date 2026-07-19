@@ -26,6 +26,8 @@ jobs:
   build_openwrt:
     name: Build OpenWrt and release
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
 
     steps:
 
